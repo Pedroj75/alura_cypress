@@ -1,0 +1,29 @@
+# Dependências do Node.js  
+node_modules/  
+package-lock.json  
+yarn.lock  
+
+# Logs e arquivos temporários  
+*.log  
+*.tmp  
+npm-debug.log*  
+yarn-error.log  
+logs/  
+
+# Arquivos do Cypress  
+cypress/videos/  # Evita enviar vídeos gerados pelos testes  
+cypress/screenshots/  # Evita capturas de tela dos testes  
+
+# Configurações do Cypress e Ambiente  
+cypress.env.json  # Evita expor variáveis de ambiente  
+.env  
+.env.local  
+
+# Diretórios e arquivos gerados  
+dist/  
+build/  
+.cache/  
+
+# Configurações do sistema operacional  
+.DS_Store  
+Thumbs.db  
